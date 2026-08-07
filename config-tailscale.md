@@ -137,13 +137,3 @@ Verify the connection:
 ```bash
 tailscale status
 ```
-
-## Credits
-
-Tailscale:
-
-https://tailscale.com/
-
-Debian archive:
-
-https://archive.debian.org/
