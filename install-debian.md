@@ -1,4 +1,4 @@
-# Installing Debian Jessie on WDMC
+# Installing Debian 8 on WDMC
 
 > [!NOTE]
 > This guide documents the installation of a clean **Debian Jessie** system on a **WD My Cloud Gen1 (Single Bay)**.
