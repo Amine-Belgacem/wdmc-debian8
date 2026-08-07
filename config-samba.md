@@ -2,12 +2,6 @@
 
 > [!NOTE]
 > This guide documents the installation and configuration of **Samba** on a clean **Debian Jessie (Debian 8)** system running on a **WD My Cloud Gen1**.
->
-> Tested environment:
->
-> - Device: WD My Cloud Gen1
-> - Operating System: Debian Jessie 8
-> - Samba package: Debian Jessie repository
 
 ## 1. Install Samba
 
