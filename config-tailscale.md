@@ -1,4 +1,4 @@
-# Installing Tailscale on WD My Cloud Gen1
+# Installing Tailscale on WDMC
 
 > [!NOTE]
 > This document is a reference for installing **Tailscale** on **Debian Jessie (Debian 8)** running on a **WD My Cloud Gen1**.
