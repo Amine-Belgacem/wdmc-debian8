@@ -10,12 +10,6 @@
 > While following the original guide, I encountered several issues and had to adjust some steps.  
 > The procedure below is the version that successfully worked on my **WD My Cloud Gen1**.
 >
-> Tested environment:
->
-> - Device: WD My Cloud Gen1
-> - Preparation OS: Linux Mint 22.3 Live USB
->
-> This procedure has only been tested once. Results may vary depending on hardware revisions, disk models, adapters, or the Linux environment used.
 
 > [!WARNING]
 > **This procedure will erase the entire drive.**
