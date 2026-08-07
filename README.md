@@ -1,4 +1,4 @@
-# WD My Cloud Gen1 - Debian Jessie Guides
+# Debian on WDMC (Gen1)
 
 This repository contains guides, configurations, and reference logs for running a bare-metal Debian Jessie (Debian 8) operating system on a first-generation WD My Cloud (Single Bay) NAS.
 
