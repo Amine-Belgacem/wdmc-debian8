@@ -190,7 +190,7 @@ The drive is now ready to be installed back into the WD My Cloud Gen1 enclosure.
 After reinstalling the drive:
 
 1. Power on the WD My Cloud.
-2. Wait 5 to 15 minutes for the first boot process to complete. Note: At least in the single-bay version, the LED should light up once Debian has successfully booted.
+2. Allow 5–15 minutes for the first boot. Note: A green LED indicates a successful Debian boot (verified on single-bay unit).
 3. Find the device IP address from your router DHCP list.
 4. Connect using SSH.
 
