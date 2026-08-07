@@ -2,14 +2,6 @@
 
 > [!NOTE]
 > This document is a reference for installing **Tailscale** on **Debian Jessie (Debian 8)** running on a **WD My Cloud Gen1**.
->
-> The steps below are based on a single successful installation and have **not** been thoroughly tested. They are provided as a reference and may require adjustments depending on your system or environment.
->
-> **Tested environment:**
->
-> - Device: WD My Cloud Gen1
-> - Operating System: Debian Jessie 8
-> - Tailscale version: 1.72.0
 
 ## 1. Patch the Package Manager for Legacy Debian 8
 
