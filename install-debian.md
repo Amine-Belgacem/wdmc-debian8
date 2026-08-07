@@ -211,13 +211,3 @@ passwd
 ```
 
 Do not expose the device to the internet using the default password.
-
-## Credits
-
-Original tutorial:
-
-https://fox-exe.ru/WDMyCloud/WDMyCloud-Gen1/
-
-Debian Jessie image source:
-
-https://github.com/abskmj/wd-mycloud-gen1/releases
