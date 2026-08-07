@@ -1,4 +1,4 @@
-# WDMC Debian Jessie Install Log
+# WDMC Debian 8 Install Log
 
 Raw terminal log from a successful Debian Jessie restore on WD My Cloud Gen1.
 
