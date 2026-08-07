@@ -1,4 +1,4 @@
-# WDMC Debian Jessie
+# WDMC Debian 8 (Jessie)
 
 This repository contains guides, configurations, and reference logs for running a bare-metal Debian Jessie (Debian 8) operating system on a first-generation WD My Cloud (Single Bay) NAS.
 
