@@ -5,7 +5,7 @@ This repository contains guides, configurations, and reference logs for running 
 **Disclaimer:** This is not a formal tutorial. These documents serve as a reference point based on a single successful deployment and have not been thoroughly tested. These steps involve modifying the fundamental operating system. Proceed at your own risk.
 
 ## Prerequisites
-**⚠️ Hardware Preparation:** Before proceeding with the core installation, you must physically open the WD My Cloud enclosure and extract the internal hard drive. The extracted drive must then be plugged into a separate computer running a Linux operating system (via a direct SATA connection or a USB-to-SATA adapter). The initial partitioning and installation steps cannot be performed while the drive is inside the NAS enclosure.
+Before proceeding with the core installation, you must physically open the WD My Cloud enclosure and extract the internal hard drive. The extracted drive must then be plugged into a separate computer running a Linux operating system (via a direct SATA connection or a USB-to-SATA adapter). The initial partitioning and installation steps cannot be performed while the drive is inside the NAS enclosure.
 
 ## Documentation
 
