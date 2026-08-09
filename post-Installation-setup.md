@@ -22,12 +22,6 @@ echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99archive
 apt-get update
 ```
 
-## Explanation of Changes
-
-1. **`apt-get clean`**: Clears out local repository indexes and cached package files to prevent conflicts with stale metadata.
-2. **`[trusted=yes] http://archive.debian.org/debian/`**: Points `apt` to the permanent archive server for Debian 8 and skips GPG signature verification errors caused by expired archive keys.
-3. **`Acquire::Check-Valid-Until "false"`**: Prevents `apt` from failing when checking the Release file timestamp, which has long expired for Debian 8.
-
 ## Verification
 
 After running `apt-get update`, you should see output indicating that package lists were successfully retrieved from `archive.debian.org` without fatal errors:
