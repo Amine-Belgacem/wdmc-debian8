@@ -104,7 +104,7 @@ cd /tmp/wd_jessie
 Download the Debian Jessie image:
 
 ```bash
-wget https://github.com/abskmj/wd-mycloud-gen1/releases/download/packages/clean-debian-jessie.tgz
+wget https://github.com/Amine-Belgacem/wdmc-debian8/releases/download/Jessie/clean-debian-jessie.tgz
 ```
 
 Extract:
