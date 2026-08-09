@@ -15,8 +15,6 @@ Install `iptables`:
 apt-get install iptables -y --allow-unauthenticated
 ```
 
-`iptables` is required by Tailscale for network configuration.
-
 ## 2. Download Tailscale ARM Binary
 
 Download the compatible Tailscale release:
