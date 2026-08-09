@@ -38,7 +38,7 @@ echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99archive
 apt-get update
 ```
 
-## Configuration & Services
+### Configuration & Services
 
 Once the base setup and repository patches are complete, you can proceed with setting up additional services:
 
