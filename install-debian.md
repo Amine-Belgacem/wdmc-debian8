@@ -1,14 +1,14 @@
 # Installing Debian 8 on WDMC
 
 > [!NOTE]
-> This guide documents the installation of a clean **Debian 8 (Jessie)** system on a **WD My Cloud Gen1 (Single Bay)**.
+> This guide documents the installation of a clean **Debian 8** system on a **WD My Cloud Gen 1 (Single Bay)**.
 >
 > The original tutorial was created by **Fox-exe.ru**:
 >
 > https://fox-exe.ru/WDMyCloud/WDMyCloud-Gen1/
 >
 > While following the original guide, I encountered several issues and had to adjust some steps.  
-> The procedure below is the version that successfully worked on my **WD My Cloud Gen1**.
+> The procedure below is the version that successfully worked on my **WD My Cloud Gen 1**.
 >
 
 > [!WARNING]
