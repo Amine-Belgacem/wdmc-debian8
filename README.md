@@ -18,7 +18,7 @@ Before proceeding with the core installation, you must physically open the WD My
 * **[Bare-Metal Installation Guide](install-debian.md):** Instructions for installing Debian Jessie. Based on the original Fox-exe.ru tutorial, adjusted to bypass encountered issues.
 * **[Installation Terminal Log](install-debian-terminal-log.md):** Raw terminal history of a successful Debian Jessie restore to a 2TB WD Red drive.
 
-## Base Post-Installation Setup
+### Base Post-Installation Setup
 
 Because Debian 8 is out of support, the default package repositories are no longer active. You must patch the package manager to point to the Debian archives *before* installing any additional software or services (like Samba or Tailscale). 
 
