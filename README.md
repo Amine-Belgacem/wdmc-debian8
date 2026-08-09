@@ -12,7 +12,7 @@ Before proceeding with the core installation, you must physically open the WD My
 ### Core Installation
 
 - **[Installing Debian 8](install-debian.md)** Instructions for installing Debian 8 on the WD My Cloud.
-- **[Installation Terminal Log](install-debian-terminal-log.md)** Raw terminal output from a successful Debian Jessie installation and restoration on a 2 TB WD Red drive.
+- **[Installation Terminal Log](install-debian-terminal-log.md)** Raw terminal output from a successful Debian 8 installation and restoration on a 2 TB WD Red drive.
 
 ### Configuration & Services
 
