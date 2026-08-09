@@ -92,7 +92,7 @@ Format the data partition:
 mkfs.ext4 -O ^64bit,^metadata_csum /dev/sdd4
 ```
 
-## 4. Download Debian Jessie Image
+## 4. Download Debian 8 (Jessie) Image
 
 Create a working directory:
 
