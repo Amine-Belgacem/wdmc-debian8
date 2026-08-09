@@ -1,7 +1,7 @@
 # Installing Samba on Debian 8 WDMC
 
 > [!NOTE]
-> This guide explains how to install and configure **Samba** on a **Debian 8 (Jessie)** system running on a **WD My Cloud Gen1**.
+> This guide explains how to install and configure **Samba** on a **Debian 8** system running on a **WD My Cloud Gen 1**.
 >
 > It assumes that Debian has already been installed and that the initial configuration described in [`post-install.md`](post-install.md) has been completed.
 
