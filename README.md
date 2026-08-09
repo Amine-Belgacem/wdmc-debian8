@@ -5,15 +5,7 @@ This repository contains installation guides, configuration notes, and reference
 > **Disclaimer:** This repository is not intended to be a formal, production-ready tutorial. The documentation is based on a single successful deployment and has not been extensively tested across different hardware revisions, drives, or configurations. The procedures described here modify the device's underlying operating system and storage layout. **Proceed at your own risk.**
 
 ## Prerequisites
-
-Before beginning the installation, you will need to physically open the WD My Cloud enclosure and remove the internal hard drive.
-
-The drive must then be connected to a separate computer running Linux, either:
-
-- Directly via a SATA connection, or
-- Using a USB-to-SATA adapter.
-
-You should be comfortable working with Linux, disk partitions, filesystems, bootloaders, and command-line tools before proceeding.
+Before proceeding with the core installation, you must physically open the WD My Cloud enclosure and extract the internal hard drive. The extracted drive must then be connected to a separate computer running a Linux operating system (via a direct SATA connection or a USB-to-SATA adapter).
 
 ## Documentation
 
