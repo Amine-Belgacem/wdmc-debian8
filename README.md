@@ -11,7 +11,7 @@ Before proceeding with the core installation, you must physically open the WD My
 
 ### Core Installation
 
-- **[Installing Debian 8 (Jessie)](install-debian.md)** Instructions for installing Debian Jessie on the WD My Cloud.
+- **[Installing Debian 8](install-debian.md)** Instructions for installing Debian Jessie on the WD My Cloud.
 - **[Installation Terminal Log](install-debian-terminal-log.md)** Raw terminal output from a successful Debian Jessie installation and restoration on a 2 TB WD Red drive.
 
 ### Configuration & Services
@@ -21,7 +21,7 @@ Before proceeding with the core installation, you must physically open the WD My
 - **[Installing Tailscale](config-tailscale.md)** Reference instructions for configuring the WD My Cloud as a Tailscale mesh-network node.
 
 ## Device Specifications
-* **Device:** WD My Cloud Gen1 (Single Bay)
+* **Device:** WD My Cloud Gen 1 (Single Bay)
 * **Target OS:** Debian Jessie 8
 * **Architecture:** ARM
 
