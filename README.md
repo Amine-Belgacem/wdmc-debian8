@@ -39,10 +39,12 @@ apt-get update
 ```
 
 ## Configuration & Services
+
 Once the base setup and repository patches are complete, you can proceed with setting up additional services:
 
 * **[Installing Samba](config-samba.md):** Notes on configuring Samba file sharing using standard Jessie repositories.
 * **[Installing Tailscale](config-tailscale.md):** Reference steps for establishing a Tailscale mesh network node.
 
 ## Credits
+
 * Original Debian installation concept by [Fox-exe.ru](https://fox-exe.ru/WDMyCloud/WDMyCloud-Gen1/).
