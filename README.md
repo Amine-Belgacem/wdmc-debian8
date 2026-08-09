@@ -2,7 +2,7 @@
 
 This repository contains guides, configurations, and reference logs for running a bare-metal Debian Jessie (Debian 8) operating system on a first-generation WD My Cloud (Single Bay) NAS.
 
-> **Disclaimer:** This is not a formal tutorial. These documents serve as a reference point based on a single successful deployment and have not been thoroughly tested. These steps involve modifying the fundamental operating system. Proceed at your own risk.
+**Disclaimer:** This is not a formal tutorial. These documents serve as a reference point based on a single successful deployment and have not been thoroughly tested. These steps involve modifying the fundamental operating system. Proceed at your own risk.
 
 ## Device Specifications
 * **Device:** WD My Cloud Gen1 (Single Bay)
