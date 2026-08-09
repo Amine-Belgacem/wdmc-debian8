@@ -12,11 +12,9 @@ Before proceeding with the core installation, you must physically open the WD My
 ### Core Installation
 
 - **[Installing Debian 8](install-debian.md)** Instructions for installing Debian 8 on the WD My Cloud.
-- **[Installation Terminal Log](install-debian-terminal-log.md)** Raw terminal output from a successful Debian 8 installation and restoration on a 2 TB WD Red drive.
+- **[Post-Installation Setup](post-install.md)** Essential post-installation steps, including configuring APT to use the archived Debian 8 repositories.
 
 ### Configuration & Services
-
-- **[Post-Installation Setup](post-install.md)** Essential post-installation steps, including configuring APT to use the archived Debian 8 repositories.
 - **[Installing Samba](config-samba.md)** Notes on installing and configuring Samba for network file sharing using the standard Debian 8 repositories.
 - **[Installing Tailscale](config-tailscale.md)** Reference instructions for configuring the WD My Cloud as a Tailscale mesh-network node.
 
