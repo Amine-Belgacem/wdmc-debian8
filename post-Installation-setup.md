@@ -22,6 +22,15 @@ echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99archive
 apt-get update
 ```
 
+## Verification
+
 After running `apt-get update`, you should see output indicating that package lists were successfully retrieved from `archive.debian.org` without fatal errors:
+
+```text
+Get:1 http://archive.debian.org jessie InRelease [144 kB]
+Get:2 http://archive.debian.org jessie/main armhf Packages [6,762 kB]
+Fetched 6,906 kB in ...
+Reading package lists... Done
+```
 
 Once this step succeeds, your package manager is ready to install system utilities, file shares, or network tools.
