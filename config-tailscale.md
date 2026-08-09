@@ -7,13 +7,6 @@
 >
 > Complete [`post-install.md`](post-install.md) before following this guide.
 
-> [!WARNING]
-> Debian 8 (Jessie) is obsolete and no longer receives security updates.
->
-> Tailscale is being installed using a static binary because the normal package-management approach is not appropriate for this legacy system.
->
-> Keep the WD My Cloud behind a firewall and avoid exposing unnecessary services directly to the Internet.
-
 ## 1. Patch the Package Manager for Legacy Debian 8
 
 Clean existing package information:
