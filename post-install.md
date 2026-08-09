@@ -1,4 +1,4 @@
-# Base Post-Installation Setup (Debian 8 Jessie)
+# Post-Installation Setup (Debian 8 Jessie)
 
 Because Debian 8 (Jessie) has reached End-of-Life (EOL), the standard Debian repositories are no longer active or reachable at their original URLs. Attempting to run `apt-get update` on a fresh Debian Jessie installation will result in repository fetch errors.
 
