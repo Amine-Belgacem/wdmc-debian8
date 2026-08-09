@@ -19,7 +19,7 @@ apt-get clean
 Replace the default repositories with the official archived Jessie repository. This points `apt` to the permanent archive server and skips GPG signature verification errors caused by expired archive keys.
 
 ```bash
-echo "deb [trusted=yes] [http://archive.debian.org/debian/](http://archive.debian.org/debian/) jessie main" > /etc/apt/sources.list
+echo "deb [trusted=yes] http://archive.debian.org/debian/ jessie main" > /etc/apt/sources.list
 ```
 
 ### 3. Disable Expiration Checks
