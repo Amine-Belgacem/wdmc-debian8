@@ -15,7 +15,7 @@ Before proceeding with the core installation, you must physically open the WD My
 ## Documentation
 
 ### Core Installation
-* **[Bare-Metal Installation Guide](install-debian.md):** Instructions for installing Debian Jessie. Based on the original Fox-exe.ru tutorial, adjusted to bypass encountered issues.
+* **[Bare-Metal Installation Guide](install-debian.md):** Instructions for installing Debian Jessie.
 * **[Installation Terminal Log](install-debian-terminal-log.md):** Raw terminal history of a successful Debian Jessie restore to a 2TB WD Red drive.
 
 ### Configuration & Services
