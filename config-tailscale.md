@@ -59,7 +59,7 @@ mkdir -p /var/run/tailscale
 
 ## 4. Patch the systemd Service
 
-The supplied service file causes `tailscaled` to crash on Debian Jessie because of an invalid port argument.
+The supplied service file causes `tailscaled` to crash on Debian 8 because of an invalid port argument.
 
 Apply the fix:
 
