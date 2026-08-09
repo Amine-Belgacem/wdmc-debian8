@@ -7,33 +7,7 @@
 >
 > Complete [`post-install.md`](post-install.md) before following this guide.
 
-## 1. Patch the Package Manager for Legacy Debian 8
-
-Clean existing package information:
-
-```bash
-apt-get clean
-```
-
-Replace the default Debian repository with the archived Jessie repository:
-
-```bash
-echo "deb [trusted=yes] http://archive.debian.org/debian/ jessie main" > /etc/apt/sources.list
-```
-
-Disable repository expiration checks:
-
-```bash
-echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99archive
-```
-
-Update package lists:
-
-```bash
-apt-get update
-```
-
-## 2. Install Required Firewall Utility
+## 1. Install Required Firewall Utility
 
 Install `iptables`:
 
@@ -43,7 +17,7 @@ apt-get install iptables -y --allow-unauthenticated
 
 `iptables` is required by Tailscale for network configuration.
 
-## 3. Download Tailscale ARM Binary
+## 2. Download Tailscale ARM Binary
 
 Download the compatible Tailscale release:
 
@@ -63,7 +37,7 @@ Enter the extracted directory:
 cd tailscale_1.72.0_arm
 ```
 
-## 4. Install Tailscale Binaries
+## 3. Install Tailscale Binaries
 
 Copy the Tailscale executables:
 
@@ -85,7 +59,7 @@ mkdir -p /var/lib/tailscale
 mkdir -p /var/run/tailscale
 ```
 
-## 5. Patch the systemd Service
+## 4. Patch the systemd Service
 
 The supplied service file causes `tailscaled` to crash on Debian Jessie because of an invalid port argument.
 
@@ -98,7 +72,7 @@ sed -i 's/--port=\${PORT} \$FLAGS/--port=41641/g' /etc/systemd/system/tailscaled
 This replaces the invalid dynamic port argument with the fixed Tailscale WireGuard port.
 
 
-## 6. Enable and Start Tailscale
+## 5. Enable and Start Tailscale
 
 Reload systemd configuration:
 
@@ -124,7 +98,7 @@ Check service status:
 systemctl status tailscaled
 ```
 
-## 7. Authenticate the Device
+## 6. Authenticate the Device
 
 Start the Tailscale login process:
 
