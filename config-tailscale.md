@@ -3,7 +3,7 @@
 > [!NOTE]
 > This guide explains how to install and configure **Tailscale** on a **Debian 8** system running on a **WD My Cloud Gen 1**.
 >
-> It uses the **Tailscale 1.72.0 ARM static binary**, which is used here as a known-compatible version for this legacy Debian Jessie installation.
+> It uses the **Tailscale 1.72.0 ARM static binary**, which is used here as a known-compatible version for this legacy Debian 8 installation.
 >
 > Complete [`post-install.md`](post-install.md) before following this guide.
 
