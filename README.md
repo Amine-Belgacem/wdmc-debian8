@@ -14,13 +14,8 @@ Before proceeding with the core installation, you must physically open the WD My
 * **[Installation Terminal Log](install-debian-terminal-log.md)**
   Raw terminal history of a successful Debian Jessie restore to a 2TB WD Red drive.
 
-### Base Post-Installation Setup
-Because Debian 8 is out of support, the default package repositories are no longer active. You must patch the package manager to point to the Debian archives before installing any additional software or services (like Samba or Tailscale).
-
-
-
 ### Configuration & Services
-* Because Debian 8 is out of support, the default package repositories are no longer active. You must patch the package manager to point to the Debian archives before installing any additional software or services (like Samba or Tailscale). Run the following commands immediately after completing the bare-metal installation:
+* ** ### Base Post-Installation Setup: Because Debian 8 is out of support, the default package repositories are no longer active. You must patch the package manager to point to the Debian archives before installing any additional software or services (like Samba or Tailscale). Run the following commands immediately after completing the bare-metal installation:
 
 ```bash
 # Clean existing package information
