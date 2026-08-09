@@ -1,6 +1,6 @@
 # WDMC Debian 8 (Jessie)
 
-This repository contains installation guides, configuration notes, and reference logs for running a bare-metal **Debian Jessie (Debian 8)** operating system on a **first-generation WD My Cloud (Single Bay)** NAS.
+This repository contains installation guides, configuration notes, and reference logs for running a bare-metal **Debian 8 (Jessie)** operating system on a **first-generation WD My Cloud (Single Bay)** NAS.
 
 > **Disclaimer:** This repository is not intended to be a formal, production-ready tutorial. The documentation is based on a single successful deployment and has not been extensively tested across different hardware revisions, drives, or configurations. The procedures described here modify the device's underlying operating system and storage layout. **Proceed at your own risk.**
 
