@@ -20,7 +20,7 @@ Before proceeding with the core installation, you must physically open the WD My
 - **[Installing Samba](config-samba.md)** Notes on installing and configuring Samba for network file sharing using the standard Debian Jessie repositories.
 - **[Installing Tailscale](config-tailscale.md)** Reference instructions for configuring the WD My Cloud as a Tailscale mesh-network node.
 
-- ## Device Specifications
+## Device Specifications
 * **Device:** WD My Cloud Gen1 (Single Bay)
 * **Target OS:** Debian Jessie 8
 * **Architecture:** ARM
