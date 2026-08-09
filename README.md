@@ -17,7 +17,10 @@ Before proceeding with the core installation, you must physically open the WD My
 ### Base Post-Installation Setup
 Because Debian 8 is out of support, the default package repositories are no longer active. You must patch the package manager to point to the Debian archives before installing any additional software or services (like Samba or Tailscale).
 
-Run the following commands immediately after completing the bare-metal installation:
+
+
+### Configuration & Services
+* Because Debian 8 is out of support, the default package repositories are no longer active. You must patch the package manager to point to the Debian archives before installing any additional software or services (like Samba or Tailscale). Run the following commands immediately after completing the bare-metal installation:
 
 ```bash
 # Clean existing package information
@@ -32,8 +35,6 @@ echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99archive
 # Update package lists
 apt-get update
 ```
-
-### Configuration & Services
 * **[Installing Samba](config-samba.md)**
   Notes on configuring Samba file sharing using standard Jessie repositories.
 * **[Installing Tailscale](config-tailscale.md)**
