@@ -1,6 +1,6 @@
 # Post-Installation Setup (Debian 8)
 
-Because Debian 8 has reached End-of-Life (EOL), the standard Debian repositories are no longer active or reachable at their original URLs. Attempting to run `apt-get update` on a fresh Debian Jessie installation will result in repository fetch errors.
+Because Debian 8 has reached End-of-Life (EOL), the standard Debian repositories are no longer active or reachable at their original URLs. Attempting to run `apt-get update` on a fresh Debian 8 installation will result in repository fetch errors.
 
 Before installing any additional software packages or services (such as Samba or Tailscale), you must patch the package manager configuration to point to the Debian Archive repositories and bypass expiration checks.
 
