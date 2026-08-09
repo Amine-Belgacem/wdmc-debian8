@@ -11,7 +11,7 @@ Before proceeding with the core installation, you must physically open the WD My
 
 ### Core Installation
 
-- **[Bare-Metal Installation Guide](install-debian.md)** Instructions for installing Debian Jessie on the WD My Cloud.
+- **[Installing Debian Jessie](install-debian.md)** Instructions for installing Debian Jessie on the WD My Cloud.
 - **[Installation Terminal Log](install-debian-terminal-log.md)** Raw terminal output from a successful Debian Jessie installation and restoration on a 2 TB WD Red drive.
 
 ### Configuration & Services
