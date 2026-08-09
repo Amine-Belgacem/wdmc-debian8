@@ -19,8 +19,6 @@ Before proceeding with the core installation, you must physically open the WD My
 * **[Installation Terminal Log](install-debian-terminal-log.md):** Raw terminal history of a successful Debian Jessie restore to a 2TB WD Red drive.
 
 ### Configuration & Services
-*Note: You must complete the base post-installation setup to patch the package manager before installing additional services.*
-
 * **[Post-Installation Setup](post-install.md):** Essential commands to patch the APT package manager to use archived Jessie repositories.
 * **[Installing Samba](config-samba.md):** Notes on configuring Samba file sharing using standard Jessie repositories.
 * **[Installing Tailscale](config-tailscale.md):** Reference steps for establishing a Tailscale mesh network node.
