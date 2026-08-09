@@ -18,30 +18,10 @@ Before proceeding with the core installation, you must physically open the WD My
 * **[Bare-Metal Installation Guide](install-debian.md):** Instructions for installing Debian Jessie. Based on the original Fox-exe.ru tutorial, adjusted to bypass encountered issues.
 * **[Installation Terminal Log](install-debian-terminal-log.md):** Raw terminal history of a successful Debian Jessie restore to a 2TB WD Red drive.
 
-### Base Post-Installation Setup
-
-Because Debian 8 is out of support, the default package repositories are no longer active. You must patch the package manager to point to the Debian archives *before* installing any additional software or services (like Samba or Tailscale). 
-
-Run the following commands immediately after completing the bare-metal installation:
-
-```bash
-# Clean existing package information
-apt-get clean
-
-# Replace the default repository with the archived Jessie repository
-echo "deb [trusted=yes] [http://archive.debian.org/debian/](http://archive.debian.org/debian/) jessie main" > /etc/apt/sources.list
-
-# Disable repository expiration checks
-echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99archive
-
-# Update package lists
-apt-get update
-```
-
 ### Configuration & Services
+*Note: You must complete the base post-installation setup to patch the package manager before installing additional services.*
 
-Once the base setup and repository patches are complete, you can proceed with setting up additional services:
-
+* **[Base Post-Installation Setup](post-install.md):** Essential commands to patch the APT package manager to use archived Jessie repositories.
 * **[Installing Samba](config-samba.md):** Notes on configuring Samba file sharing using standard Jessie repositories.
 * **[Installing Tailscale](config-tailscale.md):** Reference steps for establishing a Tailscale mesh network node.
 
