@@ -1,7 +1,18 @@
 # Installing Tailscale on WDMC
 
 > [!NOTE]
-> This document is a reference for installing **Tailscale** on **Debian Jessie (Debian 8)** running on a **WD My Cloud Gen1**.
+> This guide explains how to install and configure **Tailscale** on a **Debian 8 (Jessie)** system running on a **WD My Cloud Gen1**.
+>
+> It uses the **Tailscale 1.72.0 ARM static binary**, which is used here as a known-compatible version for this legacy Debian Jessie installation.
+>
+> Complete [`post-install.md`](post-install.md) before following this guide.
+
+> [!WARNING]
+> Debian 8 (Jessie) is obsolete and no longer receives security updates.
+>
+> Tailscale is being installed using a static binary because the normal package-management approach is not appropriate for this legacy system.
+>
+> Keep the WD My Cloud behind a firewall and avoid exposing unnecessary services directly to the Internet.
 
 ## 1. Patch the Package Manager for Legacy Debian 8
 
