@@ -31,6 +31,7 @@ echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99archive
 
 # Update package lists
 apt-get update
+```
 
 ### Configuration & Services
 * **[Installing Samba](config-samba.md)**
