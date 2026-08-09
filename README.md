@@ -14,6 +14,11 @@ Before proceeding with the core installation, you must physically open the WD My
 - **[Installing Debian 8 (Jessie)](install-debian.md)** Instructions for installing Debian Jessie on the WD My Cloud.
 - **[Installation Terminal Log](install-debian-terminal-log.md)** Raw terminal output from a successful Debian Jessie installation and restoration on a 2 TB WD Red drive.
 
+- ## Device Specifications
+* **Device:** WD My Cloud Gen1 (Single Bay)
+* **Target OS:** Debian Jessie 8
+* **Architecture:** ARM 
+
 ### Configuration & Services
 
 - **[Post-Installation Setup](post-install.md)** Essential post-installation steps, including configuring APT to use the archived Debian Jessie repositories.
