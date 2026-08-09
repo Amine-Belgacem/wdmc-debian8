@@ -4,11 +4,6 @@ This repository contains guides, configurations, and reference logs for running 
 
 **Disclaimer:** This is not a formal tutorial. These documents serve as a reference point based on a single successful deployment and have not been thoroughly tested. These steps involve modifying the fundamental operating system. Proceed at your own risk.
 
-## Device Specifications
-* **Device:** WD My Cloud Gen1 (Single Bay)
-* **Target OS:** Debian 8 (Jessie)
-* **Architecture:** ARM 
-
 ## Prerequisites
 Before proceeding with the core installation, you must physically open the WD My Cloud enclosure and extract the internal hard drive. The extracted drive must then be connected to a separate computer running a Linux operating system (via a direct SATA connection or a USB-to-SATA adapter).
 
