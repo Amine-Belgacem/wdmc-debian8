@@ -1,6 +1,6 @@
 # WDMC Debian 8 Install Log
 
-Raw terminal log from a successful Debian 8 (Jessie) restore on WD My Cloud Gen1.
+Raw terminal log from a successful Debian 8 (Jessie) restore on WD My Cloud Gen1. This is an unedited historical log. Do not use it as an installation procedure.
 
 ```text
 root@mint:/# parted /dev/sdd
